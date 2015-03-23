@@ -1,0 +1,67 @@
+html {
+	-webkit-font-smoothing: antialiased;
+}
+@font-face {
+	font-family: Voyager; 
+	src: url(LCARSGTJ3.woff);
+}
+body {
+	background: #000;
+	text-align: center;
+	font-family: "Voyager", "Arial", sans-serif;
+}
+h1 {
+	color: #CC99CC;
+	font-size: 4.4em;
+	display: inline-block;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+h1:before{
+	content:'';
+	background-color: #CC99CC;
+	width: 52px;
+	height: 60px;
+	border-radius: 30px 0 0 30px;
+	display: block;
+	float: left;
+	margin-right: 20px;
+	margin-top: 6px;
+}
+h1:after{
+	content:'';
+	background-color: #CC99CC;
+	width: 52px;
+	height: 60px;
+	border-radius: 0 30px 30px 0;
+	display: block;
+	float: right;
+	margin-left: 20px;
+	margin-top: 6px;
+}
+p {
+	color: #F7C64A;
+	font-size: 3em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	letter-spacing: 1px;
+}
+.plotbutton {
+	background: #9999CC;
+	width: 80px;
+	padding: 10px 40px;
+	border: 1px solid #9999CC;
+	border-radius: 40px;
+	font-family: "Voyager", "Arial", sans-serif;
+	font-size: 1.5em;
+	display: block;
+	margin: 0 auto;
+}
+.plotbutton:active {
+	background: #9999FF;
+}
+.plot {
+	width: 800px;
+	height: auto;
+	margin: 20px auto;
+}
